@@ -44,3 +44,8 @@ access the api at port 8000
 /docs to access the fastAPI swagger ui
 
 /redoc to access fastAPI redoc
+
+
+
+### api gateway:
+api gateway can act as webportal, when a user type in a url the gateway invoke our lambda function

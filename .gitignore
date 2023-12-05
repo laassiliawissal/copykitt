@@ -1,1 +1,4 @@
-openai-env/
+/openai-env/
+*.pyc
+*.zip
+.env

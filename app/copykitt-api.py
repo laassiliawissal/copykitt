@@ -2,11 +2,12 @@ from typing import Union
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from copykitt import generate_keywords, generate_branding_snippet 
+from mangum import Mangum
 
 MAX_LENGH_INPUT= 12 
 
 app = FastAPI()
-
+handler = Mangum(app)
 
 @app.get("/generate_snippet")
 def generate_snippet_api(prompt : str):
