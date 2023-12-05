@@ -8,7 +8,7 @@ SaaS apps.
 
 Try out the demo here (requires authentication): https://www.copykitt.co
 
-![copykitt_results_image](./images/copykitt_results.png)
+![Alt copykitt_results_image](image.png)
 
 ## Lambda Layer ZIP
 
